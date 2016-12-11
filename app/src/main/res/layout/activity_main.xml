@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/colorBlack"
+    android:layout_centerInParent="true"
+    tools:context="com.sandyz.credircardhelper.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Card Balance ($)"
+            android:textColor="#ffffff"
+
+            android:paddingBottom="30dp"
+            android:textSize="20sp"
+
+            android:id="@+id/textView" />
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="38sp"
+            android:background="@android:drawable/editbox_background_normal"
+
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:padding="5dp"
+            android:backgroundTintMode="screen"
+            android:fadingEdge="horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter yearly intrest rate (%)"
+            android:textColor="#ffffff"
+
+            android:paddingBottom="30dp"
+            android:textSize="20sp"
+
+            android:id="@+id/textView" />
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="38sp"
+            android:background="@android:drawable/editbox_background_normal"
+
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:padding="5dp"
+            android:backgroundTintMode="screen"
+            android:fadingEdge="horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10px"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter minimum payment ($)"
+        android:textColor="#ffffff"
+        android:paddingBottom="30dp"
+        android:textSize="20sp"
+
+        />
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="38sp"
+            android:background="@android:drawable/editbox_background_normal"
+
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:padding="5dp"
+            android:backgroundTintMode="screen"
+            android:fadingEdge="horizontal" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final card balance ($)"
+        android:textColor="#ffffff"
+        android:paddingBottom="30dp"
+        android:textSize="20sp"
+
+        />
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="38sp"
+            android:background="@android:drawable/editbox_background_normal"
+
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:padding="5dp"
+            android:backgroundTintMode="screen"
+            android:fadingEdge="horizontal" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Months Remaining"
+        android:textColor="#ffffff"
+        android:paddingBottom="30dp"
+        android:textSize="20sp"
+
+        />
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="38sp"
+            android:background="@android:drawable/editbox_background_normal"
+
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:padding="5dp"
+            android:backgroundTintMode="screen"
+            android:fadingEdge="horizontal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intrest paid will be ($)"
+        android:textColor="#ffffff"
+        android:paddingBottom="30dp"
+        android:textSize="20sp"
+        />
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="38sp"
+            android:background="@android:drawable/editbox_background_normal"
+
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:padding="5dp"
+            android:backgroundTintMode="screen"
+            android:fadingEdge="horizontal" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="COMPUTE"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/button"
+        android:paddingTop="10dp"
+        />
+
+    <Button
+        android:text="CLEAR"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingTop="10dp"
+        android:id="@+id/button2" />
+
+
+</LinearLayout>
+
+
